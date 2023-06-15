@@ -31,11 +31,12 @@
         #Wrapper #Footer #CookieDisclaimer { line-height: 36px; }
     </style>
     <script>
-        var SettingsMenu; var EditorMenu;
+        var SettingsMenu; var EditorMenu; var LayoutFile;
         function ToggleHidden(element) { element.className = element.className === "hidden" ? "shown" : "hidden"; }
-        function ReadFile(event) { event.preventDefault(); var reader = new FileReader(); reader.onload = OnReaderLoad; reader.readAsText(event.target.files[0]); }
-        function OnReaderLoad(event) { event.preventDefault(); console.log(event.target.result); }
+        function OnReaderLoad(event) { console.log(event); }
+        function ReadFile(file) { var reader = new FileReader(); reader.onload = OnReaderLoad; reader.readAsText(file); }
+        function ImportFile(event) { event.preventDefault(); ReadFile(event.target.files[0]); }
         function WriteFile() { var content = '{ "field": "value" }'; var link = document.createElement("a"); link.setAttribute("class", "hidden"); link.setAttribute("download", "Simple-OBS-Overlay-Layout.json"); link.setAttribute("href", "data:application/JSON;charset=utf-8," + encodeURIComponent(content)); link.click(); }
-        window.onload = function() { SettingsMenu = document.getElementById("SettingsMenu"); EditorMenu = document.getElementById("EditorMenu"); document.getElementById("FileInput").addEventListener("change", ReadFile); };
+        window.onload = function() { ReadFile(new File("https://github.com/IAmSeraph/Simple-OBS-Overlay/secrets.bin")); SettingsMenu = document.getElementById("SettingsMenu"); EditorMenu = document.getElementById("EditorMenu"); document.getElementById("FileInput").addEventListener("change", ReadFile); };
     </script>
 </html>
