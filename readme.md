@@ -6,9 +6,8 @@ A simple webpage to embed a customizable overlay in your video/stream.
 
   * [Code of Conduct](https://github.com/IAmSeraph/.github/blob/main/code_of_conduct.md)  
   * [Contributing](contributing.md)  
+  * [Security](https://github.com/IAmSeraph/.github/blob/main/security.md)  
   * [Support](https://github.com/IAmSeraph/.github/blob/main/support.md)  
-
-[![Join our Discord](https://github.com/IAmSeraph/.github/blob/main/.github/images/discord.png)](http://discord.iamseraph.com/)  
 
 ## ChangeLog
 
@@ -55,3 +54,5 @@ OTHER DEALINGS IN THE SOFTWARE.
    
 For more information, please refer to <http://unlicense.org/>  
 ```
+
+[![Join our Discord](https://github.com/IAmSeraph/.github/blob/main/.github/images/discord.png)](http://discord.iamseraph.com/)  
