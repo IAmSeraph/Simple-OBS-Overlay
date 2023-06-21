@@ -4,6 +4,10 @@ A simple webpage to embed a customizable overlay in your video/stream.
 
 [Live Development Preview!](https://raw.githack.com/IAmSeraph/Simple-OBS-Overlay/main/index.html)  
 
+  * [Code of Conduct](https://github.com/IAmSeraph/.github/blob/main/code_of_conduct.md)  
+  * [Contributing](contributing.md)  
+  * [Support](https://github.com/IAmSeraph/.github/blob/main/support.md)  
+
 [![Join our Discord](https://github.com/IAmSeraph/.github/blob/main/.github/images/discord.png)](http://discord.iamseraph.com/)  
 
 ## ChangeLog
