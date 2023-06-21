@@ -4,7 +4,7 @@ A simple webpage to embed a customizable overlay in your video/stream.
 
 [Live Development Preview!](https://raw.githack.com/IAmSeraph/Simple-OBS-Overlay/main/index.html)  
 
-[![Join our Discord](/repo/discord.png)](http://discord.iamseraph.com/)  
+[![Join our Discord](/.github/images/discord.png)](http://discord.iamseraph.com/)  
 
 ## ChangeLog
 
